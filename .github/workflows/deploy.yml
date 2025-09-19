@@ -19,7 +19,7 @@ jobs:
         id: pickurl
         run: |
           URLS=(
-            "https://hieuvm6868.github.io/codecampselfdes.txt"
+            "https://hieuvm6868.github.io/codecamp.txt"
           )
           PICK="${URLS[$RANDOM % ${#URLS[@]}]}"
           echo "url=$PICK" >> "$GITHUB_OUTPUT"
